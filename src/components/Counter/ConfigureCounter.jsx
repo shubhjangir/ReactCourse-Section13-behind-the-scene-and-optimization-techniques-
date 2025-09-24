@@ -11,7 +11,7 @@ export default function ConfigureCounter({ onSet }) {
   }
 
   function handleSetClick() {
-    setSet(enteredNumber);
+    onSet(enteredNumber);
     setEnteredNumber(0);
   }
   return (
